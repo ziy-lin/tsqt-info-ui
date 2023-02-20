@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-essential',
+    './.eslintrc-auto-import.json',
     'standard'
   ],
   overrides: [
@@ -13,7 +14,7 @@ module.exports = {
       rules: {
         'vue/multi-word-component-names': 0
       }
-    },
+    }
   ],
   parserOptions: {
     ecmaVersion: 'latest',
